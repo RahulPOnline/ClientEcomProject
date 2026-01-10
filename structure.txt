@@ -1,0 +1,23 @@
+pages
+home
+
+mens category
+womens category
+kids category
+electronics
+home and kitchen
+toys
+footwear
+
+
+
+components
+1. Navbar
+2. Footer
+3. Carousal
+4. Cards
+
+
+functionality
+
+login/signup
