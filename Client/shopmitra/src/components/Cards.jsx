@@ -69,17 +69,46 @@ export default function Cards({ data }) {
         reviews: 261,
         price: 349
       },
+      {
+        id: 7,
+        badge: "BIG1 + EXTRA 5% OFF",
+        image: "https://images.mamaearth.in/catalog/product/1/_/1_197.jpg?format=auto&width=400&height=400",
+        title: "Ubtan Natural Glow Face Wash with Turmeric & Saffron for Tan...",
+        subtitle: "Removes Tan | Brightens Skin",
+        size: "200ml",
+        rating: 4.9,
+        reviews: 170,
+        price: 549
+      },
+      {
+        id: 8,
+        badge: "BIG1 + EXTRA 5% OFF",
+        image: "https://images.mamaearth.in/catalog/product/1/_/1_192.jpg?format=auto&width=400&height=400",
+        title: "Rice Dewy Bright Face Wash With Rice Water & Niacinamide for Gla...",
+        subtitle: "Gently Cleanses Skin | Hydrates Skin",
+        size: "200ml",
+        rating: 4.8,
+        reviews: 93,
+        price: 549
+      },
     ];
 
 
     return (
         <>
-            <div style={{border:"1px solid red",height:""}}>
+            <div style={{
+                border:"1px solid #e6e6e6",
+                height:"60px",
+                padding:"20px",
+                marginTop:"10px"}}>
+
                 <h1 style={{
                 fontFamily: "Open Sans, sans-serif",
                 fontSize: "24px",
-                width: "88%",
-                margin: "50px auto 0"
+                // width: "88%",
+                // margin:"auto",
+                margin: "0 55px",
+                marginTop:"10px"
             }}>
                 Best Sellers
             </h1>
@@ -88,7 +117,7 @@ export default function Cards({ data }) {
                 fontFamily: "Open Sans, sans-serif",
                 fontSize: "15px",
                 width: "88%",
-                margin: "auto",
+                margin: "0 55px",
                 marginBottom: "30px"
             }}>
                 Explore best-selling safe, natural, and 100% toxin-free baby and beauty products from Mamaearth.

@@ -13,8 +13,8 @@ export default function Womens() {
     <div>
       {/* <h1>Womens</h1> */}
       <Carousal data={images} />
-      <div style={{ display: "flex" }}>
-        <SideBar />
+      <div style={{ display: "" }}>
+        {/* <SideBar /> */}
         <Cards />
 
       </div>

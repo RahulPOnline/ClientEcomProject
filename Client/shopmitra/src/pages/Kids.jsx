@@ -14,8 +14,8 @@ export default function Kids() {
       {/* <h1>Kids</h1> */}
       <Carousal data={images} />
 
-      <div style={{ display: "flex" }}>
-        <SideBar/>
+      <div style={{ display: "" }}>
+        {/* <SideBar/> */}
         <Cards />
 
       </div>

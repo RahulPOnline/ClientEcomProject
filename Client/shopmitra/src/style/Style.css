@@ -8,7 +8,9 @@
     margin-top: 20px;
     row-gap: 20px; 
 }
-
+#cartcontainer:hover{
+    cursor: pointer;
+}
 #cart2{
     border: 1px solid #e6e6e6;
     /* border: 1px solid green; */
@@ -141,4 +143,5 @@
 .btncart:hover{
     background-color: #f8c115;
     color: black;
+    cursor: pointer;
 }

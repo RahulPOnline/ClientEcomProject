@@ -15,7 +15,7 @@ export default function Home() {
     <div>
       {/* <h1>Home</h1> */}
       <Carousal data={images}/>
-     <div style={{display:"flex"}}>
+     <div style={{display:""}}>
       {/* <SideBar/> */}
       <Cards/>
 
