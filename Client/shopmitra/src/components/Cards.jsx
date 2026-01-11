@@ -74,7 +74,7 @@ export default function Cards({ data }) {
 
     return (
         <>
-            {/* <div style={{border:"1px solid red",height:""}}>
+            <div style={{border:"1px solid red",height:""}}>
                 <h1 style={{
                 fontFamily: "Open Sans, sans-serif",
                 fontSize: "24px",
@@ -93,7 +93,7 @@ export default function Cards({ data }) {
             }}>
                 Explore best-selling safe, natural, and 100% toxin-free baby and beauty products from Mamaearth.
             </p>
-            </div> */}
+            </div>
 
             <div id="cartcontainer">
                 {products.map((item) => (
