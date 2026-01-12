@@ -44,13 +44,13 @@ export default function Carousal({ data }) {
     return (
         <div style={{
             // border: "1px solid red",
-            marginTop: "20px",
+            // marginTop: "20px",
             width: "100%",
             display: "flex",
             justifyContent: "space-evenly",
             alignItems: "center",
             position: "relative",
-            overflow: "hidden"
+            overflow: "hidden",
         }}>
             <button style={{
                 position: "absolute",
@@ -99,7 +99,7 @@ export default function Carousal({ data }) {
 
             <button style={{
                 position: "absolute",
-                zIndex: "10",
+                zIndex: "0",
                 right: "0px",
                 width: "50px",
                 height: "100px",
