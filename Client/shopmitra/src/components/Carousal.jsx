@@ -96,6 +96,7 @@ export default function Carousal({ data }) {
                 </div>
             </div> */}
 
+
             <div style={{ width: "100%", height: "300px", overflow: "hidden" }}>
                 <div
                     style={{
