@@ -75,8 +75,7 @@ export default function Carousal({ data }) {
                 
             }} src={images[curr]} alt="" /> */}
 
-
-            <div style={{ width: "100%", overflow: "hidden" }}>
+            {/* <div style={{ width: "100%", overflow: "hidden" }}>
                 <div style={{
                     display: "flex",
                     width: `${images.length * 100}%`,
@@ -95,7 +94,36 @@ export default function Carousal({ data }) {
                         />
                     ))}
                 </div>
+            </div> */}
+
+            <div style={{ width: "100%", height: "300px", overflow: "hidden" }}>
+                <div
+                    style={{
+                        display: "flex",
+                        flexDirection: "column",
+                        height: `${images.length * 100}%`,
+                        transition: "transform 0.6s ease-in-out",
+                        transform: `translateY(-${curr * (100 / images.length)}%)`,
+                    }}
+                >
+                    {images.map((img, index) => (
+                        <img
+                            key={index}
+                            src={img}
+                            alt="image"
+                            style={{
+                                height: `${100 / images.length}%`,
+                                width: "100%",
+                                objectFit: "cover",
+                                flexShrink: 0,
+                            }}
+                        />
+                    ))}
+                </div>
             </div>
+
+
+
 
             <button style={{
                 position: "absolute",
