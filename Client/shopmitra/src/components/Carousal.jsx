@@ -21,6 +21,9 @@ export default function Carousal({ data }) {
                     return prev + 1 > images.length - 1 ? 0 : prev + 1
                 })
 
+                // setCurr(prev => (prev + 1) % images.length);                //other way to do it
+
+
             }, 2000)
         } else {
             return
